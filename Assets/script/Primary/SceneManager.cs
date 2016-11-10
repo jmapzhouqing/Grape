@@ -22,7 +22,7 @@ public class SceneManager : MonoBehaviour {
 
 	public void ExecuteOperation(){
 		if (index <= performance.Count) {
-			UIRootManager.instance.ExhibitionDialogBox(performance[indexe-1]);
+			UIRootManager.instance.ExhibitionDialogBox(performance[index-1]);
 		}
 	}
 }
