@@ -9,9 +9,12 @@ public class SceneManager : MonoBehaviour {
 
 	public List<PerformanceInfo> performance;
 
+	private Dictionary<string,int> achievement;
+
 	private int index = 1;
 	// Use this for initialization
 	void Awake () {
+		achievement = new Dictionary<string,int>();
 		DontDestroyOnLoad (this.gameObject);
 	}
 	
@@ -23,6 +26,13 @@ public class SceneManager : MonoBehaviour {
 	public void ExecuteOperation(){
 		if (index <= performance.Count) {
 			UIRootManager.instance.ExhibitionDialogBox(performance[index-1]);
+		}
+	}
+
+	//给定步骤打分
+	public void Grade(string key,int value){
+		if(!achievement.ContainsKey(key)){
+			achievement.Add(key,value);
 		}
 	}
 }

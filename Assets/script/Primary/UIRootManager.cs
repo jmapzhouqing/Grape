@@ -8,11 +8,9 @@ public class UIRootManager : MonoBehaviour {
 
 	private Dictionary<string,GameObject> viewList;
 
-	private Dictionary<string,int> achievement;
-
 	void Awake(){
 		instance = this;
-		achievement = new Dictionary<string,int>();
+
 		canvas = this.GetComponentInChildren<Canvas> ();
 		CreateChildDic();
 	}
@@ -36,12 +34,7 @@ public class UIRootManager : MonoBehaviour {
 		}
 	}
 
-	//给定步骤打分
-	public void Grade(string key,int value){
-		if(!achievement.ContainsKey(key)){
-			achievement.Add(key,value);
-		}
-	}
+
 
 	//显示对话框信息
 	public void ExhibitionDialogBox(PerformanceInfo info){

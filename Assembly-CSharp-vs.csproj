@@ -47,12 +47,17 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\script\DataStruct\PerformanceInfo.cs" />
+     <Compile Include="Assets\script\Perennial\Trim.cs" />
+     <Compile Include="Assets\script\PickUp\CheckBox.cs" />
+     <Compile Include="Assets\script\PickUp\MultipleChoice.cs" />
+     <Compile Include="Assets\script\PickUp\Option.cs" />
      <Compile Include="Assets\script\Primary\DataManager.cs" />
      <Compile Include="Assets\script\Primary\SceneManager.cs" />
      <Compile Include="Assets\script\Primary\UICameraControl.cs" />
      <Compile Include="Assets\script\Primary\UIRootManager.cs" />
      <Compile Include="Assets\script\Primary\VideoPlay.cs" />
      <Compile Include="Assets\script\Primary\ViewControl.cs" />
+     <Compile Include="Assets\script\annual\PlaceSeeding.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.3/UnityEngine.UI.dll</HintPath>
  </Reference>
