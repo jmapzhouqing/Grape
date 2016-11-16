@@ -17,7 +17,7 @@ public class VideoPlay : MonoBehaviour {
 	}
 
 	private IEnumerator PlayVideo(string fileName){
-		movTexture = Resources.Load ("Vedios/" + fileName, typeof(MovieTexture)) as MovieTexture;
+		movTexture = Resources.Load ("video/" + fileName, typeof(MovieTexture)) as MovieTexture;
 
 		image.texture = movTexture;
 

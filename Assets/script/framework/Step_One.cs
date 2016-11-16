@@ -1,14 +1,15 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-namespace framework{
-	public class Step_One:MonoBehaviour {
-		void Start () {
-			
-		}
+public class Step_One : MonoBehaviour {
 
-		void Update () {
-			
-		}
+	// Use this for initialization
+	void Start () {
+	
+	}
+	
+	// Update is called once per frame
+	void Update () {
+	
 	}
 }

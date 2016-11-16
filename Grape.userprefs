@@ -1,9 +1,28 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\script\framework\Step_One.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\script\annual\Step_Twenty.cs">
     <Files>
-      <File FileName="Assets\script\Primary\SceneManager.cs" Line="9" Column="1" />
-      <File FileName="Assets\script\framework\Step_One.cs" Line="7" Column="4" />
+      <File FileName="Assets\script\perennial\Step_Thirteen.cs" Line="1" Column="1" />
+      <File FileName="Assets\script\PickUp\PickUp.cs" Line="1" Column="1" />
+      <File FileName="Assets\script\PickUp\Option.cs" Line="1" Column="1" />
+      <File FileName="Assets\script\PickUp\MultipleChoice.cs" Line="1" Column="1" />
+      <File FileName="Assets\script\PickUp\MultiGrapFilling.cs" Line="1" Column="1" />
+      <File FileName="Assets\script\PickUp\MultiCheckBox.cs" Line="1" Column="1" />
+      <File FileName="Assets\script\PickUp\InputCheck.cs" Line="1" Column="1" />
+      <File FileName="Assets\script\PickUp\CheckBox.cs" Line="1" Column="1" />
+      <File FileName="Assets\script\perennial\DataManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\script\perennial\Step_Sixteen.cs" Line="1" Column="1" />
+      <File FileName="Assets\script\framework\DataManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\script\Primary\SceneManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\script\perennial\Step_Seventeen.cs" Line="1" Column="1" />
+      <File FileName="Assets\script\perennial\Step_Twenty.cs" Line="1" Column="1" />
+      <File FileName="Assets\script\perennial\Step_Three.cs" Line="1" Column="1" />
+      <File FileName="Assets\script\perennial\Step_TwentyThree.cs" Line="1" Column="1" />
+      <File FileName="Assets\script\perennial\Step_Nine.cs" Line="1" Column="1" />
+      <File FileName="Assets\script\Primary\UIRootManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\script\annual\Step_Twenty.cs" Line="37" Column="63" />
+      <File FileName="Assets\script\Primary\Load.cs" Line="24" Column="39" />
+      <File FileName="Assets\script\Primary\PrimaryControl.cs" Line="7" Column="95" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

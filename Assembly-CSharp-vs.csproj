@@ -47,16 +47,55 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\script\DataStruct\PerformanceInfo.cs" />
-     <Compile Include="Assets\script\Primary\DataManager.cs" />
+     <Compile Include="Assets\script\PickUp\CheckBox.cs" />
+     <Compile Include="Assets\script\PickUp\Delete\DeleteComponent.cs" />
+     <Compile Include="Assets\script\PickUp\Delete\DeleteConfirm.cs" />
+     <Compile Include="Assets\script\PickUp\Delete\RandomCreate.cs" />
+     <Compile Include="Assets\script\PickUp\InputCheck.cs" />
+     <Compile Include="Assets\script\PickUp\MultiCheckBox.cs" />
+     <Compile Include="Assets\script\PickUp\MultiGrapFilling.cs" />
+     <Compile Include="Assets\script\PickUp\MultipleChoice.cs" />
+     <Compile Include="Assets\script\PickUp\Option.cs" />
+     <Compile Include="Assets\script\PickUp\PickUp.cs" />
+     <Compile Include="Assets\script\Primary\CaculateGrade.cs" />
+     <Compile Include="Assets\script\Primary\Data.cs" />
+     <Compile Include="Assets\script\Primary\Load.cs" />
+     <Compile Include="Assets\script\Primary\PrimaryControl.cs" />
+     <Compile Include="Assets\script\Primary\SceneInit.cs" />
      <Compile Include="Assets\script\Primary\SceneManager.cs" />
      <Compile Include="Assets\script\Primary\UICameraControl.cs" />
      <Compile Include="Assets\script\Primary\UIRootManager.cs" />
      <Compile Include="Assets\script\Primary\VideoPlay.cs" />
      <Compile Include="Assets\script\Primary\ViewControl.cs" />
+     <Compile Include="Assets\script\annual\DataManager.cs" />
+     <Compile Include="Assets\script\annual\Step_Eight.cs" />
+     <Compile Include="Assets\script\annual\Step_Eleven.cs" />
+     <Compile Include="Assets\script\annual\Step_One.cs" />
+     <Compile Include="Assets\script\annual\Step_ThirTeen.cs" />
+     <Compile Include="Assets\script\annual\Step_Twenty.cs" />
+     <Compile Include="Assets\script\framework\DataManager.cs" />
      <Compile Include="Assets\script\framework\Step_One.cs" />
+     <Compile Include="Assets\script\perennial\DataManager.cs" />
+     <Compile Include="Assets\script\perennial\Step_Nine.cs" />
+     <Compile Include="Assets\script\perennial\Step_Seventeen.cs" />
+     <Compile Include="Assets\script\perennial\Step_Sixteen.cs" />
+     <Compile Include="Assets\script\perennial\Step_Thirteen.cs" />
+     <Compile Include="Assets\script\perennial\Step_Three.cs" />
+     <Compile Include="Assets\script\perennial\Step_Twenty.cs" />
+     <Compile Include="Assets\script\perennial\Step_TwentyThree.cs" />
+     <Compile Include="Assets\script\perennial\Trim.cs" />
+     <None Include="Assets\Resources\shader\Diffuse_Double.shader" />
+     <None Include="Assets\Resources\shader\Double.shader" />
+ <Reference Include="Assembly-UnityScript-firstpass">
+ <HintPath>G:/Outsourcing/Project/Grape/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>E:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.4/UnityEngine.UI.dll</HintPath>
  </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
+      <Project>{5A6ACF88-F493-C5BA-7606-4E9E2243F428}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
